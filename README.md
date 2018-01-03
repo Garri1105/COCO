@@ -1,0 +1,6 @@
+# COCO
+Conscious Code created by Juan David Garrido in 2014 (17 years old). My first ever personal project that aimed to create consciousness. I was young, had just learned how to program and felt ambitious. I created an impressive word network that I will revise in the future because it has promise.
+
+Start a new COCO and talk to her. She will remember all the words said and the connections to other words. There is a talk() function that uses the word network created to respond to anything that the user says. She will go through the words and based on random values she will put sentences together that will make more sense the more she talks to someone. She forgets words and memorizes others based on how often she is talked to. I eliminated the current talk() function because it didn't use the word network appropiately and I never finished implementing the word network as I wanted it. All my thoughts about what a conscious code should have are commented at the beginning of the file and I will come back to them once I learn more about machine learning.
+
+To see how COCO is storing words type /find and enter the word you are looking for. It will output all the information about the word: its connections, its memorization level and its emotional association (not implemented). Type /save to save the current COCO and /load to load an old save.
